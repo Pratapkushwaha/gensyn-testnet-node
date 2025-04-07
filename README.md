@@ -31,6 +31,7 @@ sudo apt install -y python3 python3-venv python3-pip curl screen git yarn
 2. **Install other dependencies**
 ```bash
 curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+```
 3. **Install Node.js and npm if not installed already**  
 ```bash
 echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
