@@ -9,7 +9,9 @@
 | **CUDA Devices (Recommended)**      | `RTX 3090`, `RTX 4090`, `A100`, `H100`                                                      |
 | **Python Version**                  | Python >= 3.10 (For Mac, you may need to upgrade) 
 
-
+- you can buy vps from contabo
+- Visit : https://my.contabo.com/
+or 
 ## 🌐 Rent GPU
 - Visit : [Quick Pod Website](https://console.quickpod.io?affiliate=64e0d2b2-59ee-4989-a05f-f4c3b6dbb2e4)
 - Sign Up using email address
