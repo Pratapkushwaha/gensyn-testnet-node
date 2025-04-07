@@ -24,36 +24,36 @@
 
 ## 📥 Installation
 
-1. **Install `sudo`**
+1. **`**
 ```bash
 sudo apt install -y python3 python3-venv python3-pip curl screen git yarn
 ```
-2. **Install other dependencies**
+2. ****
 ```bash
 curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
 ```
-3. **Install Node.js and npm if not installed already**  
+3. ****  
 ```bash
 echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
 ```
-4. **Clone this repository**
+4. ****
 ```bash
 sudo apt update && sudo apt install -y yarn
 ```
 
-5. **Create a `screen` session**
+5. ****
 ```bash
 curl -sSL https://raw.githubusercontent.com/zunxbt/installation/main/node.sh | bash
 ```
-6. **Install Node.js and npm if not installed already**  
+6. ****  
 ```bash
 rm -rf rl-swarm && git clone https://github.com/zunxbt/rl-swarm.git && cd rl-swarm
 ```
-7. **Clone this repository**
+7. ****
 ```bash
 screen -S gensyn
 ```
-8. **Create a `screen` session**
+8. ****
 ```bash
 python3 -m venv .venv && source .venv/bin/activate && ./run_rl_swarm.sh
 ```
