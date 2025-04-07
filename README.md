@@ -61,6 +61,11 @@ python3 -m venv .venv && source .venv/bin/activate && ./run_rl_swarm.sh
 ```
 - It will ask some questions, you should send response properly
 - ```Would you like to connect to the Testnet? [Y/n]``` : Write `Y`
+Go to https://ngrok.com/ and register
+ Authtoken section AND Click on show Authtoken and copy and paste it in your VPS
+
+Open ngrok and go to endpoint open domain and click on visit site and login with ngrock email.
+
 - ```Would you like to push models you train in the RL swarm to the Hugging Face Hub? [y/N]``` : Write `N`
 - When you will see interface like this, you can detach from this screen session
 
