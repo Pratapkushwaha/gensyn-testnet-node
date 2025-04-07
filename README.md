@@ -39,6 +39,7 @@ echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/source
 4. **Clone this repository**
 ```bash
 sudo apt update && sudo apt install -y yarn
+```
 
 5. **Create a `screen` session**
 ```bash
@@ -47,11 +48,11 @@ curl -sSL https://raw.githubusercontent.com/zunxbt/installation/main/node.sh | b
 6. **Install Node.js and npm if not installed already**  
 ```bash
 rm -rf rl-swarm && git clone https://github.com/zunxbt/rl-swarm.git && cd rl-swarm
-
+```
 7. **Clone this repository**
 ```bash
 screen -S gensyn
-
+```
 8. **Create a `screen` session**
 ```bash
 python3 -m venv .venv && source .venv/bin/activate && ./run_rl_swarm.sh
@@ -71,7 +72,15 @@ save your node name
 Leader board : https://dashboard.gensyn.ai
 
 fore recheck command:
-1.cd ~/rl-swarm
-1.1. screen -r gensyn
- rerun command:
-2. python3 -m venv .venv && source .venv/bin/activate && ./run_rl_swarm.sh
+1.
+```bash
+cd ~/rl-swarm
+```
+2.
+```bash
+ screen -r gensyn
+```
+3. rerun command:
+```bash
+ python3 -m venv .venv && source .venv/bin/activate && ./run_rl_swarm.sh
+```
