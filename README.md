@@ -71,7 +71,7 @@ save your node name
 
 Leader board : https://dashboard.gensyn.ai
 
-fore recheck command:
+for recheck command:
 1.
 ```bash
 cd ~/rl-swarm
@@ -80,7 +80,7 @@ cd ~/rl-swarm
 ```bash
  screen -r gensyn
 ```
-3. rerun command:
+3. return command:
 ```bash
  python3 -m venv .venv && source .venv/bin/activate && ./run_rl_swarm.sh
 ```
